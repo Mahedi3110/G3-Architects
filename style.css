@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.secondary-text {
+    color: gray;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    height: 5vw;
+}
+
+.btn {
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: orangered;
+}
+
+.btn:active {
+    padding: 10px 25px 10px 25px;
+}
+
+.website-name {
+    font-size: 30px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-color {
+    background: rgb(255, 236, 218);
+}
+
+.side-gap {
+    margin: 0 8vw;
+}
+
+.top-padding {
+    padding-top: 2vw;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navlink {
+    margin-left: 150px;
+    margin-top: 7px;
+}
+
+.navlink a {
+    text-decoration: none;
+    margin-left: 4vw;
+    font-size: 19px;
+    color: rgb(43, 43, 43);
+}
+
+.navlink a:hover {
+    color: orangered;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3vw;
+}
+
+.heading-text {
+    font-size: 3.5vw;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.shadow {
+    box-shadow: 0 5px 10px rgb(141, 141, 141);
+    border-radius: 10px;
+}
+
+.second-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+}
+
+.img-album {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
+
+.color-text {
+    color: orange;
+}
+
+.feature-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3vw;
+}
+
+.mt-7 {
+    margin-top: 40px;
+}
+
+.mt-6 {
+    margin-top: 13vw;
+}
+
+.mt-5 {
+    margin-top: 0.7vw;
+}
+
+.mt-4 {
+    margin-top: 10vw;
+}
+
+.mt-3 {
+    margin-top: 4vw;
+}
+
+.mt-2 {
+    margin-top: 7vw;
+}
+
+.mt-1 {
+    margin-top: 1.5vw;
+}
+
+.ml-1 {
+    margin-left: 2vw;
+}
+
+.article-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-border {
+    border-left: 4px solid orange;
+    padding-left: 15px;
+}
+
+.main-line {
+    font-size: 2.5vw;
+}
+
+.article-container {
+    position: relative;
+}
+
+.positioning {
+    justify-content: center;
+    position: absolute;
+    bottom: -20px;
+    left: 572px;
+}
+
+.btn-primary-text {
+    font-size: 35px;
+}
+
+.btn-secondary-text {
+    font-size: 15px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid orange;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+}
+
+.icon:hover {
+    box-shadow: 0 5px 10px rgb(141, 141, 141);
+    border-radius: 10px;
+}
+
+.sponsor-part {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sponsors-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    width: 10vw;
+}
+
+.footer-text {
+    padding: 20px 0 15px 0;
+    margin-bottom: 10vw;
+}
+
+
+/* --------------------------------------------- responsive part ---------------------------------------- */
+@media screen and (max-width: 1048px) {
+    .positioning {
+        right: 30%;
+        left: 60%;
+        bottom: 5%;
+    }
+
+    .icon-container {
+        justify-content: space-between;
+    }
+
+    .icon {
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 881px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .website-name {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .navlink {
+        margin-left: 0;
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin-top: 25px;
+        margin-top: 40px;
+    }
+
+    .navlink a {
+        margin-left: 0;
+    }
+
+    .side-gap {
+        margin: 0 3vw;
+    }
+
+    .heading-text {
+        font-size: 35px;
+    }
+
+    .mt-1 {
+        margin-top: 30px;
+    }
+
+    .mt-7 {
+        margin-top: 50px;
+    }
+
+    .mt-8 {
+        margin-top: 60px;
+    }
+
+    .main-line {
+        font-size: 30px;
+    }
+
+    .positioning {
+        top: 68vw;
+        left: 57vw;
+        right: 26vw;
+    }
+
+    .sponsors-logo {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 5vw;
+        margin-top: 10px;
+    }
+
+    .logo {
+        margin: 2vw 5vw;
+        width: 100px;
+    }
+
+    .footer-mt {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 739px) {
+    .second-section {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-part {
+        order: -1;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .article-part {
+        grid-template-columns: 1fr;
+    }
+
+    .article-text {
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-text-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .start-align {
+        text-align: start;
+    }
+
+    .banner-img {
+        width: 150vw;
+        margin-left: 5vw;
+    }
+
+    .article-img {
+        height: 100vh;
+        width: auto;
+    }
+
+    .img-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .positioning {
+        top: 1070px;
+        left: 50%;
+        right: 50%;
+    }
+
+    .bonus-section {
+        margin-top: 90px;
+    }
+
+    .fact-section {
+        text-align: center;
+        margin-top: 90px;
+    }
+
+    .icon-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon {
+        margin: 3vw 3vw;
+        width: 180px;
+    }
+
+    .sponsors-logo {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 5vw;
+        margin-top: 10px;
+    }
+
+    .logo {
+        margin: 2vw 5vw;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navlink {
+        width: 100%;
+    }
+
+    .feature-part {
+        order: 0;
+    }
+
+    .second-section {
+        margin-top: 35px;
+    }
+
+    .img-album {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .team-img {
+        width: 70%;
+        margin-top: 25px;
+    }
+
+    .article-container {
+        margin-top: 120px;
+    }
+
+    .bonus-section {
+        margin-top: 70px;
+    }
+
+    .fact-section {
+        margin-top: 140px;
+    }
+
+    .sponsor-part {
+        margin-top: 100px;
+    }
+
+    .footer-text {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .positioning {
+        top: 1090px;
+    }
+
+    .bonus-section {
+        margin-top: 100px;
+    }
+}
