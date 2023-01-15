@@ -446,8 +446,7 @@
     }
 
     .article-img {
-        height: 100vh;
-        width: auto;
+        width: 100%;
     }
 
     .img-container {
