@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 .secondary-text {
@@ -43,6 +42,10 @@
 
 .bg-color {
     background: rgb(255, 236, 218);
+}
+
+.overflow {
+    overflow: hidden;
 }
 
 .side-gap {
